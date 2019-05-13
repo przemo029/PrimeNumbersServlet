@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Prime Numbers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><h1>Prime Numbers</h1></div>
+        <h3>Check if the number is prime number</h3>
+        <form action="CheckNumber">
+            Number: <input type=text size=3 name=number><br/><br/>
+            <input type="submit" value="Check number" />
+        </form>
+        <h3>Insert range to determine prime numbers</h3>
+        <form action="PrimeNumInRange">
+            Begin: <input type=text size=3 name=begin><br/><br/>
+            End: <input type=text size=3 name=end><br/><br/>
+            <input type="submit" value="Calculate" />
+        </form>
+        <h3>Insert nth prime number to determine</h3>
+        <form action="NthPrimeNum">
+            Nth prime number: <input type=text size=3 name=nthNumber><br/><br/>
+            <input type="submit" value="Calculate" />
+        </form>
+        <form action="HistoryCalculate">
+            <br/><br/><input type="submit" value="History" />
+        </form>
+    </body>
+</html>
